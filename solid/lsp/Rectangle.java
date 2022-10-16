@@ -32,7 +32,5 @@ public class Rectangle extends Shape {
     public int getArea() {
         return width * height;
     }
-    public int getSide(){
-        return 0;
-    }
+   
 }

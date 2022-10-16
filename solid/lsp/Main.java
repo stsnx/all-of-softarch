@@ -5,7 +5,7 @@ public class Main {
 
     private static final int width = 4;
     private static final int height = 5;
-
+    private static final int side = 5;
     public static void main(String[] args) {
         Shape reg1 = new Rectangle(width, height);
         System.out.println("==== Rectangle ====");
@@ -13,10 +13,10 @@ public class Main {
         System.out.println("Height = " + height);
         System.out.println("Area = " + reg1.getArea());
 
-        Shape reg2 = new Square(5);
+        Shape reg2 = new Square(side);
         System.out.println("====   Square  ====");
-        System.out.println("Width = " + reg2.getSide());
-        System.out.println("Height = " + reg2.getSide());
+        System.out.println("Width = " + side);
+        System.out.println("Height = " + side);
         System.out.println("Area = " + reg2.getArea());
     }
 }

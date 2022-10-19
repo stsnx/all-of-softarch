@@ -1,0 +1,12 @@
+{
+    "java.project.sourcePaths": [
+        "solid/lsp",
+        "solid/book",
+        "creational/src"
+    ],
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\STSNX\\OneDrive\\Documents\\KMITL\\3D\\Software_Architecture\\lib\\commons-csv-1.9.0.jar",
+        "c:\\Users\\STSNX\\OneDrive\\Documents\\KMITL\\3D\\Software_Architecture\\lib\\commons-lang3-3.12.0.jar"
+    ]
+}
